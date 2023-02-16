@@ -18,12 +18,12 @@ def about_me():
 #     str_date = today.strftime("%B %d %Y")
 #     return "Today's date is " + str_date
     
-# @app.route("/education")
-# def education():
-#     return render_template("education.html")
+@app.route("/education")
+def education():
+    return render_template("education.html")
     
-# @app.route("/work")
-# def work():
-#     return render_template("work.html")
+@app.route("/work")
+def work():
+    return render_template("work.html")
     
     # update Public IPv4 DNS address from EC2 instance for SSH server connection settings
